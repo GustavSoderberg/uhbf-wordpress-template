@@ -59,7 +59,7 @@
 									<!-- Sidebar -->
 
 										<section>
-											<?php if ( is_page( array( 'belgotraffen' ) ) ) : ?>
+											<?php if ( is_page( array( 'belgotraffen' ) ) || 46 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'belgotraffen-menu' ) ); ?>
 											<?php 
@@ -87,7 +87,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'surolstraffen' ) ) ) : ?>
+											<?php elseif ( is_page( array( 'surolstraffen' ) ) || 61 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'surolstraffen-menu' ) ); ?>
 											<?php 
@@ -115,7 +115,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'fler-evenemang' ) ) ) : ?>
+											<?php elseif ( is_page( array( 'fler-evenemang' ) ) || 65 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'fler-evenemang-menu' ) ); ?>
 											<?php 
@@ -143,7 +143,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'for-medlemmar' ) ) ) : ?>
+											<?php elseif ( is_page( array( 'for-medlemmar' ) ) || 67 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'for-medlemmar-menu' ) ); ?>
 											<?php 
@@ -171,7 +171,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'bli-medlem' ) ) ) : ?>
+											<?php elseif ( is_page( array( 'bli-medlem' ) ) || 70 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'bli-medlem-menu' ) ); ?>
 											<?php 
@@ -199,7 +199,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'om-oss' ) ) ) : ?>
+											<?php elseif ( is_page( array( 'om-oss' ) ) || 72 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'om-oss-menu' ) ); ?>
 											<?php 
