@@ -14,9 +14,10 @@
 
 					<!-- Nav -->
 						<nav id="nav">
+							<!-- Code for old centered logo above menu 
 							<ul>
 								<li><img src="<?php echo get_template_directory_uri(); ?>/assets/images/uhbflogo-160x300.png" width="40" height="75"></li>							
-							</ul>
+							</ul> -->
 							<?php //wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
 							<?php 
 							if ( has_nav_menu( 'header-menu' ) ) {   
@@ -34,7 +35,7 @@
 									'after'           => '',
 									'link_before'     => '',
 									'link_after'      => '',
-									'items_wrap'      => '<ul>%3$s</ul>',
+									'items_wrap'      => '<ul><li><img src="https://frew.blue/uhbf/wp-content/themes/uhbf/assets/images/uhbflogo-160x300.png" width="40" height="75"></li>%3$s</ul>',
 									'depth'           => 0,
 									'walker'          => ''
 								);
@@ -78,7 +79,7 @@
 													'after'           => '',
 													'link_before'     => '',
 													'link_after'      => '',
-													'items_wrap'      => '<ul>%3$s</ul>',
+													'items_wrap'      => '<ul class="links">%3$s</ul>',
 													'depth'           => 0,
 													'walker'          => ''
 												);
@@ -106,7 +107,7 @@
 													'after'           => '',
 													'link_before'     => '',
 													'link_after'      => '',
-													'items_wrap'      => '<ul>%3$s</ul>',
+													'items_wrap'      => '<ul class="links">%3$s</ul>',
 													'depth'           => 0,
 													'walker'          => ''
 												);
@@ -134,7 +135,7 @@
 													'after'           => '',
 													'link_before'     => '',
 													'link_after'      => '',
-													'items_wrap'      => '<ul>%3$s</ul>',
+													'items_wrap'      => '<ul class="links">%3$s</ul>',
 													'depth'           => 0,
 													'walker'          => ''
 												);
@@ -162,7 +163,7 @@
 													'after'           => '',
 													'link_before'     => '',
 													'link_after'      => '',
-													'items_wrap'      => '<ul>%3$s</ul>',
+													'items_wrap'      => '<ul class="links">%3$s</ul>',
 													'depth'           => 0,
 													'walker'          => ''
 												);
@@ -190,7 +191,7 @@
 													'after'           => '',
 													'link_before'     => '',
 													'link_after'      => '',
-													'items_wrap'      => '<ul>%3$s</ul>',
+													'items_wrap'      => '<ul class="links">%3$s</ul>',
 													'depth'           => 0,
 													'walker'          => ''
 												);
@@ -218,7 +219,7 @@
 													'after'           => '',
 													'link_before'     => '',
 													'link_after'      => '',
-													'items_wrap'      => '<ul>%3$s</ul>',
+													'items_wrap'      => '<ul class="links">%3$s</ul>',
 													'depth'           => 0,
 													'walker'          => ''
 												);

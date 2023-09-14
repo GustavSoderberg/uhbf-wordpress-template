@@ -4,7 +4,7 @@
 /*
 Theme Name: UHBF
 Description: A Wordpress theme for Uppsala Hembryggareförening
-Version: 1.4 (2023-09-09)
+Version: 1.5 (2023-09-14)
 Author: Gustav Söderberg
 License: Private
 */
@@ -117,21 +117,22 @@ input, select, textarea {
 		border-bottom: dotted 1px;
 	}
 	
-	    #sidebar a.current {
+		//Modified to work with wordpress template class
+	    #sidebar li.current-menu-item a {
 	        font-weight: 800;
 	        color: #000;
 	    }
 	    
 	    #sidebar a.main {
-	        font-weight: 800;
 	    }
 	    
 	    #sidebar a.submenu {
 	        /*margin-left: 1em;*/
 	    }
-	    
-	    #sidebar a.currentsubmenu {
+
+	    #sidebar li.current-menu-item a {
 	        /*margin-left: 1em;*/
+	        font-weight: 800;
 	        color: #000;
 	    }
 
@@ -2623,7 +2624,11 @@ input, select, textarea {
 					color: #000;
 				}
 
-				#nav > ul > li.current {
+				#nav > ul > li.current-menu-item a {
+					font-weight: 600;
+				}
+
+				#nav > ul > li.current-page-ancestor a {
 					font-weight: 600;
 				}
 
@@ -2682,11 +2687,16 @@ input, select, textarea {
 				border: 0;
 			}
 			
-			.dropotron > li > a.current {
+			.dropotron > li.current-menu-item a {
 			    color: #000;
 				font-weight: 600;
 			}
-			
+
+			.dropotron > li.current-page-ancestor a {
+			    color: #000;
+				font-weight: 600;
+			}
+
 			.dropotron > li.active > a, .dropotron > li:hover > a {
 				color: #000;
 			}
