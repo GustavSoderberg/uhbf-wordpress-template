@@ -48,8 +48,11 @@
 				</div>
 				<?php if ( is_page( array( 'startsida' ) ) ) : ?>
 				<?php else : ?>
+			
+			<!-- Hero -->
+				<section id="banner-cropped">
+				</section>
 				
-
 			<!-- Main -->
 				<section class="wrapper style1">
 					<div class="container">

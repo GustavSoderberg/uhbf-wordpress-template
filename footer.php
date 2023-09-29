@@ -1,4 +1,4 @@
-				<?php if ( is_page( array( 'startsida' ) ) ) : ?>
+<?php if ( is_page( array( 'startsida' ) ) ) : ?>
 				<?php else : ?>
 				
 											
@@ -15,7 +15,7 @@
 					<!-- Copyright -->
 						<div class="copyright">
 							<ul class="menu">
-								<li>&copy; Uppsala hembryggareförening</li><li>Designed by <a href="http://frew.blue/">Gustav Söderberg</a></li>
+								<li>&copy; Uppsala hembryggareförening</li><li>Designed by <a href="http://frew.blue/" target="_blank">Gustav Söderberg</a></li>
 							</ul>
 						</div>
 
