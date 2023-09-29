@@ -3049,7 +3049,7 @@ input, select, textarea {
 			}
 
 			#banner-cropped {
-				height: 10em;
+				height: 0em;
 			}
 
 				#banner header h2 {
