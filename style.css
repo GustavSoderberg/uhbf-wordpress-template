@@ -3049,7 +3049,7 @@ input, select, textarea {
 			}
 
 			#banner-cropped {
-				height: 0em;
+				height: 10em;
 			}
 
 				#banner header h2 {
@@ -3131,7 +3131,7 @@ input, select, textarea {
 				background-color: #FFF;
 				height: 44px;
 				line-height: 44px;
-				box-shadow: 0 4px 0 0 #37c0fb;
+				box-shadow: 0 4px 0 0 #FFF;
 			}
 
 				#titleBar .title {
@@ -3342,7 +3342,7 @@ input, select, textarea {
 			}
 
 			#banner-cropped {
-				height: 0em;
+				height: 10em;
 			}
 
 		/* Wrapper */
@@ -3402,7 +3402,7 @@ input, select, textarea {
 			}
 
 			#banner-cropped {
-				height: 0em;
+				height: 10em;
 			}
 
 				#banner header {
