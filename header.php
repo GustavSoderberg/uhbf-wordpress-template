@@ -91,7 +91,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'surolstraffen' ) ) || 61 == $post->post_parent ) : ?>
+											<?php elseif ( is_page( array( 'surolstraffen' ) ) || 661 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'surolstraffen-menu' ) ); ?>
 											<?php 
@@ -147,7 +147,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'for-medlemmar' ) ) || 67 == $post->post_parent ) : ?>
+											<?php elseif ( is_page( array( 'for-medlemmar' ) ) || 662 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'for-medlemmar-menu' ) ); ?>
 											<?php 
@@ -175,7 +175,7 @@
 											}
 											?>
 											
-											<?php elseif ( is_page( array( 'bli-medlem' ) ) || 70 == $post->post_parent ) : ?>
+											<?php elseif ( is_page( array( 'bli-medlem' ) ) || 663 == $post->post_parent ) : ?>
 											
 											<?php //wp_nav_menu( array( 'theme_location' => 'bli-medlem-menu' ) ); ?>
 											<?php 
