@@ -15,7 +15,7 @@
 					<!-- Copyright -->
 						<div class="copyright">
 							<ul class="menu">
-								<li>&copy; Uppsala hembryggareförening</li><li>Design av <a href="https://soderbergs.it/" target="_blank">Gustav Söderberg</a></li>
+								<li>&copy; Uppsala hembryggareförening</li><li>Design av <a href="https://soderbergs.it" target="_blank">Söderbergs IT</a></li>
 							</ul>
 						</div>
 

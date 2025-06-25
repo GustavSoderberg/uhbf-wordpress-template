@@ -35,7 +35,7 @@
 									'after'           => '',
 									'link_before'     => '',
 									'link_after'      => '',
-									'items_wrap'      => '<ul><li><img src="https://www.uhbf.se/wp-content/themes/uhbf-wordpress-template/assets/images/uhbflogo-160x300.png" width="40" height="75"></li>%3$s</ul>',
+									'items_wrap'      => '<ul><li><img src="https://www.uhbf.se/wp-content/uploads/2025/06/uhbflogo-160x300-1.png" width="40" height="75"></li>%3$s</ul>',
 									'depth'           => 0,
 									'walker'          => ''
 								);
